@@ -1,1 +1,48 @@
-<p>formulario works!</p>
+<div class="cuerpo">
+
+
+
+    <div class="container">
+
+        <form formGroup="formulario" (ngSubmit)="envioFormulario()">
+
+
+            <div>
+
+                <label>Date</label>
+                <select formControlName="date">
+                    <option value="">Select one</option>
+                    <option value="monday">monday</option>
+                    <option value="tuesday">tuesday</option>
+                    <option value="wednesday">wednesday</option>
+                    <option value="thursday">thursday</option>
+                    <option value="friday">friday</option>
+                    <option value="saturday">saturday</option>
+                    <option value="sunday">sunday</option>
+                    <option value="notes">notes</option>
+                </select>
+
+            </div>
+
+
+            <div>
+                <label>Tittle</label>
+                <input type="text" formControlName="tittle">
+            </div>
+
+
+            <div>
+                <label>Description</label>
+                <textarea formControlName="description"></textarea>
+            </div>
+
+
+
+
+
+            <input type="submit" value="Guardar">
+
+        </form>
+
+    </div>
+</div>
