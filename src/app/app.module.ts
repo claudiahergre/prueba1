@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PlannerComponent } from './components/planner/planner.component';
+import { FormularioComponent } from './components/formulario/formulario.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PlannerComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,
