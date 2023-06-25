@@ -1,1 +1,82 @@
-<p>planner works!</p>
+<div class="container">
+
+    <article class="dia" *ngFor="let entrada of entradas; let indice= index">
+
+        <div class="monday" *ngIf="(entrada.date === 'monday')">
+
+            <div class="entrada">
+                <div>
+                    <h3>{{entrada.tittle}}</h3>
+                    <button>X</button>
+                </div>
+                <p>{{entrada.description}}</p>
+            </div>
+
+        </div>
+
+        <div class="tuesday" *ngIf="(entrada.date === 'tuesday')">
+
+            <div class="entrada">
+                <h3>{{entrada.tittle}}</h3>
+                <p>{{entrada.description}}</p>
+            </div>
+
+        </div>
+
+        <div class="wednesday" *ngIf="(entrada.date === 'wednesday')">
+
+            <div class="entrada">
+                <h3>{{entrada.tittle}}</h3>
+                <p>{{entrada.description}}</p>
+            </div>
+
+        </div>
+
+        <div class="thursday" *ngIf="(entrada.date === 'thursday')">
+
+            <div class="entrada">
+                <h3>{{entrada.tittle}}</h3>
+                <p>{{entrada.description}}</p>
+            </div>
+
+        </div>
+
+        <div class="friday" *ngIf="(entrada.date === 'friday')">
+
+            <div class="entrada">
+                <h3>{{entrada.tittle}}</h3>
+                <p>{{entrada.description}}</p>
+            </div>
+
+        </div>
+
+        <div class="saturday" *ngIf="(entrada.date === 'saturday')">
+
+            <div class="entrada">
+                <h3>{{entrada.tittle}}</h3>
+                <p>{{entrada.description}}</p>
+            </div>
+
+        </div>
+
+        <div class="sunday" *ngIf="(entrada.date === 'sunday')">
+
+            <div class="entrada">
+                <h3>{{entrada.tittle}}</h3>
+                <p>{{entrada.description}}</p>
+            </div>
+
+        </div>
+
+        <div class="notes" *ngIf="(entrada.date === 'notes')">
+
+            <div class="entrada">
+                <h3>{{entrada.tittle}}</h3>
+                <p>{{entrada.description}}</p>
+            </div>
+
+        </div>
+
+    </article>
+
+</div>

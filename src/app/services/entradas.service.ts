@@ -11,9 +11,9 @@ export class EntradasService {
   constructor() {
     this.arrEntradas = [
       {
-        date: '',
-        tittle: '',
-        description: '',
+        date: 'monday',
+        tittle: 'hacer la compra',
+        description: 'pan, huevos, verduras',
       }
     ]
   }
