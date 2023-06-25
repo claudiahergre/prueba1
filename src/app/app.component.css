@@ -1,0 +1,12 @@
+#body {
+    background-image: url(https://st2.depositphotos.com/3892937/47778/v/450/depositphotos_477785326-stock-illustration-magical-forest-botanical-seamless-pattern.jpg);
+}
+
+#headbar {
+    height: 50px;
+}
+
+#center {
+    display: flex;
+    flex-direction: row;
+}
